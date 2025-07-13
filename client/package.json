@@ -1,13 +1,13 @@
 {
   "name": "mfe-client",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "lint": "pnpm -r lint",
     "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
     "start": "pnpm -r start"
   },
   "devDependencies": {
